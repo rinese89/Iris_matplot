@@ -34,6 +34,7 @@ std::vector<std::vector<Eigen::Vector2d>> vertices_poligonos;
    std::vector<Eigen::Vector2d> calculateIntersectionPoints(const Eigen::MatrixXd& A, const Eigen::VectorXd& b) {
     std::vector<Eigen::Vector2d> points;
     int num_constraints = A.rows();
+    //new comment
 
     for (int i = 0; i < num_constraints; i++) {
         for (int j = 0; j < num_constraints; j++) {
